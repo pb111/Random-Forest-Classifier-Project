@@ -45,8 +45,30 @@ Random forest algorithm combines multiple decision-trees, resulting in a forest 
 ## 2. Random Forest algorithm intuition
 
 
+Random forest algorithm intuition can be divided into two stages. 
+In the first stage, we randomly select “k” features out of total “m” features and build the random forest. In the first stage, 
+we proceed as follows:-
 
 
+1.	Randomly select “k” features from a total of “m” features where k < m.
+
+2.	Among the “k” features, calculate the node “d” using the best split point.
+
+3.	Split the node into daughter nodes using the best split.
+
+4.	Repeat 1 to 3 steps until “l” number of nodes has been reached.
+
+5.	Build forest by repeating steps 1 to 4 for “n” number of times to create “n” number of trees.
+
+
+In the second stage, we make predictions using the trained random forest algorithm. 
+
+
+1.	We take the test features and use the rules of each randomly created decision tree to predict the outcome and stores the predicted outcome.
+
+2.	Then, we calculate the votes for each predicted target.
+
+3.	Finally, we consider the high voted predicted target as the final prediction from the random forest algorithm.
 
 
 ===============================================================================
