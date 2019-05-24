@@ -9,13 +9,37 @@ In this project, I build a Random Forest Classifier to predict the safety of the
 ## Table of Contents
 
 
+1.	Introduction to Random Forest algorithm
+
+2.	Random Forest classification intuition
+
+3.	Advantages and disadvantages of Random Forest algorithm
+
+4.	Feature selection with Random Forest algorithm
+
+5.	Difference between Random Forests and Decision Trees
+
+6.	Relationship to nearest neighbours
+
+7.	The problem statement
+
+8.	Results and conclusion
+
+9.	Applications of Random Forest classification 
+
+10.	References
+
+
+===============================================================================
+
+
 ## 1. Introduction to Random Forest algorithm
 
 Random forest is a supervised learning algorithm. It has two variations – one is used for classification problems and other is used for regression problems. It is one of the most flexible and easy to use algorithm. It creates decision trees on the given data samples, gets prediction from each tree and selects the best solution by means of voting. It is also a pretty good indicator of feature importance.
 Random forest algorithm combines multiple decision-trees, resulting in a forest of trees, hence the name “Random Forest”. In the random forest classifier, the higher the number of trees in the forest results in higher accuracy
 
 
-
+===============================================================================
 
 
 ## 2. Random Forest algorithm intuition
@@ -25,6 +49,7 @@ Random forest algorithm combines multiple decision-trees, resulting in a forest 
 
 
 
+===============================================================================
 
 
 ## 3. Advantages and disadvantages of Random Forest algorithm
@@ -52,8 +77,10 @@ The disadvantages of Random Forest algorithm are listed below:-
 2.	The model is difficult to interpret as compared to a decision-tree, where we can easily make a prediction as compared to a decision-tree.
 
 
+===============================================================================
 
-## 4. Feature selection with Random Forests
+
+## 4. Feature selection with Random Forest algorithm
 
 
 Random forests algorithm can be used for feature selection process. This algorithm can be used to rank the importance of variables in a regression or classification problem. We measure the variable importance in a dataset by fitting the random forest algorithm to the data. During the fitting process, the out-of-bag error for each data point is recorded and averaged over the forest. 
@@ -63,6 +90,9 @@ The importance of the j-th feature was measured after training. The values of th
 
 
 Features which produce large values for this score are ranked as more important than features which produce small values. Based on this score, we will choose the most important features and drop the least important ones for model building. 
+
+
+===============================================================================
 
 
 ## 5. Difference between Random Forests and Decision Trees
@@ -80,11 +110,16 @@ I will compare random forests with decision-trees. Some salient features of comp
 4.	Random forest is difficult to interpret. But, a decision-tree is easily interpretable and can be converted to rules.
 
 
+===============================================================================
+
 
 ## 6. Relationship to nearest neighbours
 
 
 A relationship between random forests and the k-nearest neighbours algorithm was pointed out by Lin and Jeon in 2002. It turns out that both can be viewed as so-called `weighted neighbourhoods schemes`. These are models built from a training set that make predictions for new points by looking at the neighbourhood of the point, formalized by a weight function.
+
+
+===============================================================================
 
 
 ## 7. The problem statement
@@ -93,7 +128,21 @@ A relationship between random forests and the k-nearest neighbours algorithm was
 The problem is to predict the safety of the car. In this project, I build a Random Fores t Classifier to predict the safety of the car. I implement Random Forest Classification with Python and Scikit-Learn. I have used the **Car Evaluation Data Set** for this project, downloaded from the UCI Machine Learning Repository website.
 
 
+The dataset can be found at the following url-
+
+
+http://archive.ics.uci.edu/ml/datasets/Car+Evaluation
+
+
+===============================================================================
+
+
 ## 8. Results and conclusion
+
+
+
+===============================================================================
+
 
 
 ## 9. Applications of Random Forest classification
@@ -115,6 +164,9 @@ Random forests has a wide variety of applications. Its applications include -
 6.	Stock-market
 
 7.	E-commerce
+
+
+===============================================================================
 
 
 ## 10. References
