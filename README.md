@@ -1,6 +1,6 @@
 # Random Forest Classifier with Python and Scikit-Learn
 
-In this project, I build a Random Forest Classifier to predict the safety of the car. I implement Random Forest Classification with Python and Scikit-Learn. I have used the **Car Evaluation Data Set** for this project, downloaded from the UCI Machine Learning Repository website.
+Random Forest is a supervised machine learning algorithm which is based on ensemble learning. In this project, I build a Random Forest Classifier to predict the safety of the car. I implement Random Forest Classification with Python and Scikit-Learn. I have used the **Car Evaluation Data Set** for this project, downloaded from the UCI Machine Learning Repository website.
 
 
 ===============================================================================
